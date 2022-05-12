@@ -37,6 +37,7 @@ El objetivo es observar una serie de documentos xml y encontrar los errores, cor
 
    **Después:**
 
+  ```
    <?xml version="1.0" encoding="UTF-8"?>
    <deportistas>
      <deportista>
@@ -48,7 +49,7 @@ El objetivo es observar una serie de documentos xml y encontrar los errores, cor
        <nombre>Mark Spitz</nombre>
      </deportista>
    </deportistas>
-
+  ```
 
 2. *Películas:*
 
@@ -71,6 +72,7 @@ El objetivo es observar una serie de documentos xml y encontrar los errores, cor
 
    **Después:**
 
+  ```
    <?xml version="1.0" encoding="UTF-8"?>
    <peliculas>
      <pelicula>
@@ -83,7 +85,7 @@ El objetivo es observar una serie de documentos xml y encontrar los errores, cor
      </pelicula>
      <autor>Barto</autor>
    </peliculas>
-  
+  ```
 
 3. *Texto:*
 
@@ -105,6 +107,7 @@ El objetivo es observar una serie de documentos xml y encontrar los errores, cor
 
    **Después:**
 
+  ```
    <?xml version="1.0" encoding="UTF-8"?>
    <texto>
      <titulo>XML explicado a los niños</titulo>
@@ -114,7 +117,7 @@ El objetivo es observar una serie de documentos xml y encontrar los errores, cor
      para añadir información.</parrafo>
      <http>www.example.org</http>
    </texto>
-   
+   ```
 
 4. *Información geográfica:*
 
@@ -135,6 +138,7 @@ El objetivo es observar una serie de documentos xml y encontrar los errores, cor
 
    **Después:**
 
+  ```
    <?xml version="1.0" encoding="UTF-8"?>
    <geografia-mundial>
      <pais>
@@ -143,7 +147,7 @@ El objetivo es observar una serie de documentos xml y encontrar los errores, cor
        <capital>Madrid</capital>
      </pais>
    </geografia-mundial>
-   
+   ```
 
 5. *Programas:*
 
@@ -162,13 +166,14 @@ El objetivo es observar una serie de documentos xml y encontrar los errores, cor
 
    **Después:**
 
+  ```
    <?xml version="1.0" encoding="UTF-8"?>
    <programas>
      <programa nombre="Firefox" licencia="GPL MPL" />
      <programa nombre="LibreOffice" licencia="LGPL" />
      <programa nombre="Inkscape" licencia="GPL" />
    </programas>
-   
+   ```
 
 6. *Mundiales de fútbol:*
 
@@ -188,6 +193,7 @@ El objetivo es observar una serie de documentos xml y encontrar los errores, cor
 
    **Después:**
 
+  ```
    <?xml version="1.0" encoding="UTF-8"?>
    <mundiales-de-futbol>
      <mundial>
@@ -195,7 +201,7 @@ El objetivo es observar una serie de documentos xml y encontrar los errores, cor
        <año>1982</año>
      </mundial>
    </mundiales-de-futbol>
-  
+  ```
 
 7. *Medios de transporte:*
 
@@ -213,11 +219,13 @@ El objetivo es observar una serie de documentos xml y encontrar los errores, cor
 
    **Después:**
 
+  ```
    <?xml version="1.0" encoding="UTF-8"?>
    <mediosDeTransporte>
      <bicicleta velocidad="v&lt;100km/h" />
      <patinete velocidad-maxima="50 km/h" />
    </mediosDeTransporte>
+  ```
 
 ​		En xml, menor que (<) se escribe como "& lt ;" (junto), si se quisiera un mayor que (>) sería "& gt ;".
 
